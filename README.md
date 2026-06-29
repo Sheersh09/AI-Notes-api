@@ -13,7 +13,7 @@ The project is being developed incrementally, with each phase introducing new ba
 | ✅ Phase 0 – Project Setup                | Complete |
 | ✅ Phase 1 – API Fundamentals             | Complete |
 | ✅ Phase 2 – Request Validation           | Complete |
-| ⬜ Phase 3 – CRUD Operations (In-Memory)  | Upcoming |
+| ✅ Phase 3 – CRUD Operations (In-Memory)  | Complete |
 | ⬜ Phase 4 – Project Structure & Routers  | Upcoming |
 | ⬜ Phase 5 – SQLite & SQLAlchemy          | Upcoming |
 | ⬜ Phase 6 – Service Layer                | Upcoming |
