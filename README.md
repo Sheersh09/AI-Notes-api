@@ -14,7 +14,7 @@ The project is being developed incrementally, with each phase introducing new ba
 | ✅ Phase 1 – API Fundamentals             | Complete |
 | ✅ Phase 2 – Request Validation           | Complete |
 | ✅ Phase 3 – CRUD Operations (In-Memory)  | Complete |
-| ⬜ Phase 4 – Project Structure & Routers  | Upcoming |
+| ✅ Phase 4 – Project Structure & Routers  | Complete |
 | ⬜ Phase 5 – SQLite & SQLAlchemy          | Upcoming |
 | ⬜ Phase 6 – Service Layer                | Upcoming |
 | ⬜ Phase 7 – Search, Pagination & Sorting | Upcoming |
@@ -66,6 +66,16 @@ The project is being developed incrementally, with each phase introducing new ba
 * HTTP Status Code
 * Features
 
+---
+
+## Phase 4
+
+* APIRouter
+* Modular Architecture
+* Packages
+
+---
+
 # Tech Stack
 
 * Python
@@ -81,7 +91,10 @@ The project is being developed incrementally, with each phase introducing new ba
 ai-notes-api/
 │
 ├── app/
-│   └── main.py
+│   ├── main.py
+│   │
+│   └── routers/
+│       └── notes.py          # All note-related endpoints
 │
 ├── .gitignore
 ├── README.md
@@ -163,4 +176,4 @@ Open:
 
 # Purpose
 
-This project serves as a stepping stone toward building a full-featured AI. Each phase introduces new backend engineering concepts while keeping the project functional and deployable throughout development.
+This project serves as a stepping stone toward building a full-featured AI application. Each phase introduces new backend engineering concepts while keeping the project functional and deployable throughout development.
