@@ -1,6 +1,6 @@
 # AI Notes API
 
-A learning project built with **FastAPI** to understand modern backend development before building a larger AI Study Partner application.
+A learning project built with **FastAPI** to understand modern backend development before building a larger application.
 
 The project is being developed incrementally, with each phase introducing new backend concepts and ending with a working application.
 
@@ -57,6 +57,14 @@ The project is being developed incrementally, with each phase introducing new ba
 * Interactive Swagger request forms
 
 ---
+
+## Phase 3
+
+* CRUD implementation
+* Basic backend logic
+* Lists Storage
+* HTTP Status Code
+* Features
 
 # Tech Stack
 
@@ -155,4 +163,4 @@ Open:
 
 # Purpose
 
-This project serves as a stepping stone toward building a full-featured AI Study Partner backend. Each phase introduces new backend engineering concepts while keeping the project functional and deployable throughout development.
+This project serves as a stepping stone toward building a full-featured AI. Each phase introduces new backend engineering concepts while keeping the project functional and deployable throughout development.
