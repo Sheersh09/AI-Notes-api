@@ -6,7 +6,6 @@ from app.routers import notes
 
 app = FastAPI()
 
-# Create the SQLite tables when the application starts.
 models.Base.metadata.create_all(bind=engine)
 
 app.include_router(notes.router)

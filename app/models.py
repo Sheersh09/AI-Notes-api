@@ -6,7 +6,6 @@ from sqlalchemy import String
 from app.database import Base
 
 
-# Define the notes table that SQLAlchemy will create inside SQLite.
 class Note(Base):
     __tablename__ = "notes"
 
