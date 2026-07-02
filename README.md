@@ -15,7 +15,7 @@ The project is being developed incrementally, with each phase introducing new ba
 | ✅ Phase 2 – Request Validation           | Complete |
 | ✅ Phase 3 – CRUD Operations (In-Memory)  | Complete |
 | ✅ Phase 4 – Project Structure & Routers  | Complete |
-| ⬜ Phase 5 – SQLite & SQLAlchemy          | Upcoming |
+| ✅ Phase 5 – SQLite & SQLAlchemy          | Complete |
 | ⬜ Phase 6 – Service Layer                | Upcoming |
 | ⬜ Phase 7 – Search, Pagination & Sorting | Upcoming |
 | ⬜ Phase 8 – Error Handling               | Upcoming |
@@ -75,6 +75,17 @@ The project is being developed incrementally, with each phase introducing new ba
 * Packages
 
 ---
+
+## Phase 5
+
+* SQLite
+* SQLAlchemy
+* ORM
+* Tables
+* Sessions
+
+---
+
 
 # Tech Stack
 

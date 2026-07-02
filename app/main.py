@@ -1,11 +1,14 @@
 from fastapi import FastAPI
 
-# Import the notes router so notes-related endpoints live in their own module.
+from app import models
+from app.database import engine
 from app.routers import notes
 
 app = FastAPI()
 
-# Attach all note routes from the router module to the main app.
+# Create the SQLite tables when the application starts.
+models.Base.metadata.create_all(bind=engine)
+
 app.include_router(notes.router)
 
 
@@ -18,6 +21,6 @@ def read_root() -> dict[str, str]:
 def read_about() -> dict[str, str]:
     return {
         "project": "AI Notes API",
-        "phase": "Phase 4 - Project Structure",
-        "description": "This phase organizes note routes using APIRouter and modular structure.",
+        "phase": "Phase 5 - Database",
+        "description": "This phase stores notes in SQLite using SQLAlchemy ORM and sessions.",
     }
