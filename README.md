@@ -175,13 +175,14 @@ Open:
 * [x] Project setup
 * [x] API fundamentals
 * [x] Request validation
-* [ ] CRUD operations
-* [ ] Modular project structure
+* [x] CRUD operations
+* [x] Modular project structure
 * [ ] SQLite integration
 * [ ] SQLAlchemy ORM
 * [ ] AI summarization
 * [ ] Quiz generation
 * [ ] Deployment on Render
+
 
 ---
 
